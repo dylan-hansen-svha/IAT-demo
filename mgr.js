@@ -76,7 +76,7 @@ define(['managerAPI',
             inherit: 'instructions',
             name: 'raceiat_instructions',
             //templateUrl: 'raceiat_instructions.jst',
-	    templateUrl: 'iat10.jst',
+	    templateUrl: 'qualtrics/exampleQIATgendercareer.js',
             title: 'IAT Instructions',
             header: 'Implicit Association Test'
         }],
@@ -84,14 +84,14 @@ define(['managerAPI',
         explicits: [{
             type: 'quest',
             name: 'explicits',
-            //scriptUrl: 'explicits.js'
+            //scriptUrl: 'qualtrics/exampleQIATgendercareer.js'
 		templateUrl: 'iat10.jst',
         }],
 
         raceiat: [{
             type: 'time',
             name: 'raceiat',
-            //scriptUrl: 'raceiat.js'
+            //scriptUrl: 'qualtrics/exampleQIATgendercareer.js'
 		templateUrl: 'iat10.jst',
         }],
 
