@@ -75,7 +75,8 @@ define(['managerAPI',
         raceiat_instructions: [{
             inherit: 'instructions',
             name: 'raceiat_instructions',
-            templateUrl: 'raceiat_instructions.jst',
+            //templateUrl: 'raceiat_instructions.jst',
+	    templateUrl: 'iat10.jst',
             title: 'IAT Instructions',
             header: 'Implicit Association Test'
         }],
@@ -83,13 +84,15 @@ define(['managerAPI',
         explicits: [{
             type: 'quest',
             name: 'explicits',
-            scriptUrl: 'explicits.js'
+            //scriptUrl: 'explicits.js'
+		templateUrl: 'iat10.jst',
         }],
 
         raceiat: [{
             type: 'time',
             name: 'raceiat',
-            scriptUrl: 'raceiat.js'
+            //scriptUrl: 'raceiat.js'
+		templateUrl: 'iat10.jst',
         }],
 
         lastpage: [{
