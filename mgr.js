@@ -81,14 +81,14 @@ define(['managerAPI',
         }],
 
         explicits: [{
-            type: 'quest',
+           // type: 'quest',
             name: 'explicits',
             //scriptUrl: 'qualtrics/exampleQIATgendercareer.js'
 		templateUrl: 'iat10.jst',
         }],
 
         raceiat: [{
-            type: 'time',
+            //type: 'time',
             name: 'raceiat',
             //scriptUrl: 'qualtrics/exampleQIATgendercareer.js'
 		templateUrl: 'iat10.jst',
