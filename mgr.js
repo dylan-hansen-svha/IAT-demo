@@ -75,8 +75,7 @@ define(['managerAPI',
         raceiat_instructions: [{
             inherit: 'instructions',
             name: 'raceiat_instructions',
-            //templateUrl: 'raceiat_instructions.jst',
-	    templateUrl: 'qualtrics/exampleQIATgendercareer.js',
+            templateUrl: 'raceiat_instructions.jst',
             title: 'IAT Instructions',
             header: 'Implicit Association Test'
         }],
